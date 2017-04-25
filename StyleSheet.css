@@ -1,0 +1,66 @@
+﻿/*Hunter Glisson*/
+
+body {background-color:#f2e6ff;
+      color: #0d0a63;
+      font-family: Verdana, Arial, Tahoma, sans-serif;
+      font-size: 12px;
+	  padding-left: 50px;
+      padding-top: 20px;}
+
+h2 {font-family: 'Times New Roman', Georgia, times, serif;
+    font-variant: small-caps;
+    font-size: 14px;
+    font-weight: bold;}
+
+h3 {font-family: 'Times New Roman', Georgia, times, serif;
+    font-variant: small-caps;
+    font-size: 12px;
+    font-weight: bold;}
+
+nav ul{list-style: none;}
+
+nav ul li {margin-bottom: 10px;
+           width: 180px;
+           text-align: center;
+           border-style: solid;
+           border-width: 2px;
+           border-radius: 5px;
+           border-color: #6da3f9;
+           background-color: #84d0ff;}
+
+label {font-weight: bold;
+       float: left;
+	   clear: left;
+       text-align: right;
+       margin-bottom: 10px;
+       padding-right: 10px;
+       width: 150px;
+       display: block;}
+
+span{display: block;
+     margin-bottom: 15px;}
+
+a{display: block;}
+
+input[type="text"]{display: block;
+                   margin-bottom: 12px;}
+
+input[type="text"]:focus{background-color: #ffffe6;}
+
+input[type="password"]{display: block;
+                       margin-bottom: 12px;}
+
+input[type="password"]:focus{background-color: #ffffe6;}
+
+input[type="radio"]{margin-top: 12px;
+                    display: block;}
+
+.btngroup{margin-left: 150px;}
+
+.btnsingle{display: block;
+           margin-left: 120px;
+           margin-bottom: 40px;
+           clear:left;}
+
+.error{font-style: italic;
+       color: red;}
